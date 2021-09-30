@@ -2,11 +2,12 @@ package ru.avbugorov.productservice;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import ru.avbugorov.productservice.dtos.ProductDto;
+
+import java.util.List;
 
 public interface GreetingController {
-    @GetMapping("/greeting")
-    String greeting();
+    @GetMapping("/products")
+    List<ProductDto> products();
 
-    @GetMapping("/parametrized/{id}")
-    String parametrized(@PathVariable(value = "id") String id);
 }

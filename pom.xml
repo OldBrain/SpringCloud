@@ -9,7 +9,6 @@
         <module>eureka-server</module>
          <module>ProductsService</module>
          <module>FrontService</module>
-<!--         <module>eureka-feign-service</module>-->
      </modules>
 
     <parent>

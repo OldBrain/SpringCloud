@@ -1,14 +1,16 @@
-package ru.avbugorov.productservice;
+package ru.avbugorov.frontservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication
 @EnableEurekaClient
-public class GeekEurekaClientApplication {
+@EnableFeignClients
+public class StartFrontServiceClientApplication {
 	public static void main(String[] args) {
-		SpringApplication.run(GeekEurekaClientApplication.class, args);
+		SpringApplication.run(StartFrontServiceClientApplication.class, args);
 	}
 }
 
