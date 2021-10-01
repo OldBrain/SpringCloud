@@ -11,7 +11,6 @@ import java.util.List;
 
 @RestController
 @RequiredArgsConstructor
-//@RequestMapping("/api/v1/products")
 public class ProductControllerImpl implements GreetingController {
 
     private final ProductService productService;

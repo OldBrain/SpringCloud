@@ -18,6 +18,7 @@ public class GreetingControllerImpl {
         String answer = greetingClient.parametrized("1000");
         return answer;
     }
+
     @RequestMapping("/get-products")
     public List<Object> getProducts() {
         return greetingClient.getProducts();

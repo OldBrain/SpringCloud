@@ -9,8 +9,8 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @EnableEurekaClient
 @EnableFeignClients
 public class StartFrontServiceClientApplication {
-	public static void main(String[] args) {
-		SpringApplication.run(StartFrontServiceClientApplication.class, args);
-	}
+    public static void main(String[] args) {
+        SpringApplication.run(StartFrontServiceClientApplication.class, args);
+    }
 }
 
