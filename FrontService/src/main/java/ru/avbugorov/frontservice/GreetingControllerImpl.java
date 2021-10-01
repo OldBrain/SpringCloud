@@ -6,6 +6,10 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
 
+
+
+//http://localhost:8190/market/index.html
+
 @RequiredArgsConstructor
 @RestController
 public class GreetingControllerImpl {
